@@ -1,4 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <h1>This is the landing Page</h1>
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
+    <body>
+        <h1>Journalit.org</h1>
+        <h5>Your own personalized journal</h5>
+        <img src="https://image.shutterstock.com/image-photo/hand-women-writting-on-diary-260nw-521963527.jpg" alt="A diary">
+        <p>
+            Please sign up to continue. Creating your own
+            account will help us personalize your experience.
+        </p>
+        <form action="/submit-name-email">
+                <label for="name">
+                    Enter your name : <input id="name", type="text" placeholder="e.g. Sourav Pal" required>
+                </label>
+            
+                <label for="email">
+                    Enter your email : <input id="email" type="text" placeholder="e.g name@gmail.com" required> 
+                </label>
+                <label><button type="submit">Submit</label>
+        </form>
+    </body>
 </html>
