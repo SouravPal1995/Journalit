@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CatPhotoApp</title>
+        <title>Journalapp</title>
     </head>
     <body>
         <h1>Journalit.org</h1>
@@ -12,14 +12,13 @@
             account will help us personalize your experience.
         </p>
         <form action="/submit-name-email">
-                <label for="name">
-                    Enter your name : <input id="name", type="text" placeholder="e.g. Sourav Pal" required>
-                </label>
-            
-                <label for="email">
-                    Enter your email : <input id="email" type="text" placeholder="e.g name@gmail.com" required> 
-                </label>
-                <label><button type="submit">Submit</label>
+            <p>I am a <label for = "Male">male<input id="Male" type="radio" name="gender" required></label>
+                <label for = "Female">female<input id="Female" type="radio" name="gender" required></label>
+            </p>
+            <p>I want a premium subscription : <label for="yes"><input id="yes" type="checkbox" name="response" required></input></p>
+            <p><label for="name">Enter your name : <input id="name", type="text" placeholder="e.g. Sourav Pal" required></label></p>
+            <p><label for="email">Enter your email : <input id="email" type="text" placeholder="e.g name@gmail.com" required></label>
+                <label for="submit"><button id="submit" type="submit">Submit</label><p>
         </form>
     </body>
 </html>
