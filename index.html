@@ -3,38 +3,43 @@
     <head>
         <title>Journalapp</title>
         <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Pacifico&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <h1>Journalit.org</h1>
-        <h5>Your own personalized journal</h5>
-        <img class="black_border" src="https://image.shutterstock.com/image-photo/hand-women-writting-on-diary-260nw-521963527.jpg" alt="A diary">
-        <p>
-            Journals are one of the oldest practices known to the human race. Journals allowed our ancestors to commit there experiences and 
-            memories to paper so that future generations could learn from them and build upon there triumps and failures. Maintaining journals have also 
-            been known to have therapeutic properties as it allows one to deal with their daily struggles and stressful experiences. Maintaining a journal
-            is cost effective and healthier than spending countless hours of mindless internet surfing. Journalit is an opensource project that allows us to do just that without 
-            ever needing a physical paper. Also it's completely free!! All you have to do is follow the following steps. To contribute to this project visit the
+    <body id="background">
+        <h1 class="fonttype">Journalit.org</h1>
+        <h5 class="fonttype">Your own personalized journal</h5>
+        <img class="black_border" 
+             src="https://image.shutterstock.com/image-photo/hand-women-writting-on-diary-260nw-521963527.jpg" 
+             alt="A diary">
+        <p class="fonttype">
+            Journals are one of the oldest practices known to the human race. Journals allowed our ancestors to 
+            commit there experiences and memories to paper so that future generations could learn from them and build upon there triumps and failures. 
+            Maintaining journals have also been known to have therapeutic properties as it allows one to deal 
+            with their daily struggles and stressful experiences. Maintaining a journal is cost effective and healthier 
+            than spending countless hours of mindless internet surfing. Journalit is an opensource project that allows 
+            us to do just that without ever needing a physical paper. Also it's completely free!! 
+            All you have to do is follow the following steps. To contribute to this project visit the
             <a href="https://github.com/SouravPal1995/Journalit">github</a>
         </p>
-        <ol>
+        <ol class="fonttype">
             <li>Fill in your personal details</li>
             <li>Enter your name and email</li>
             <li>Set your password.</li>
         </ol>
-        <p>You are ready to go :)</p>
-        <p>
+        <p class="fonttype">You are ready to go :)</p>
+        <p class="fonttype">
             Please sign up to continue. Creating your own
             account will help us personalize your experience.
         </p>
-        <form action="/submit-name-email">
+        <form class="fonttype" action="/submit-name-email">
             <p>I am a <label for = "Male">male<input id="Male" type="radio" value= "male",name="gender" required checked></label>
                 <label for = "Female">female<input id="Female" type="radio" value="female", name="gender" required></label>
             </p>
             <p>I want a premium subscription : <label for="yes"><input id="yes" type="checkbox" value="premium", name="response" required></input></p>
-            <p><label for="name">Enter your name : <input id="name", type="text" placeholder="e.g., Sourav Pal" required></label></p>
-            <p><label for="email">Enter your email : <input id="email" type="text" placeholder="e.g., name@gmail.com" required></label></p>
-            <p><label for="Password">Enter Password : <input id="Password" type="text" placeholder="e.g., password" required></label>
-                <label for="submit"><button id="submit" type="submit">submit</label><p>
+            <p><label  for="name">Enter your name : <input class="fonttype" id="name", type="text" placeholder="e.g., Sourav Pal" required></label></p>
+            <p><label  for="email">Enter your email : <input class="fonttype" id="email" type="text" placeholder="e.g., name@gmail.com" required></label></p>
+            <p><label  for="Password">Enter Password : <input class="fonttype" id="Password" type="text" placeholder="e.g., password" required></label>
+                <label for="submit"><button class="fonttype" id="submit" type="submit">submit</label><p>
         </form>
         
     </body>
